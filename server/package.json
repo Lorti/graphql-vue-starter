@@ -1,0 +1,17 @@
+{
+  "name": "graphql-starter",
+  "description": "Sample GraphQL server",
+  "version": "1.0.0",
+  "author": "Manuel Wieser",
+  "license": "MIT",
+  "main": "index.js",
+  "dependencies": {
+    "cors": "^2.8.4",
+    "eslint": "^4.16.0",
+    "eslint-config-vue": "^2.0.2",
+    "eslint-plugin-vue": "^4.2.2",
+    "express": "^4.16.2",
+    "express-graphql": "^0.6.11",
+    "graphql": "^0.12.3"
+  }
+}
