@@ -4,7 +4,7 @@ const { graphql, buildSchema } = require('graphql');
 
 const schema = buildSchema(`
     type Query {
-        hello: string
+        hello: String
     }
 `);
 
@@ -15,7 +15,7 @@ const query = `
 `;
 
 const resolvers = {
-  hello() {
+  hello: () => {
     return 'Hello World';
   }
 };
