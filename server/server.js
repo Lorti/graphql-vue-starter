@@ -11,6 +11,7 @@ const { buildSchema } = require('graphql')
 // Construct a schema, using GraphQL schema language.
 // @see http://graphql.org/learn/schema/
 // @see https://wehavefaces.net/graphql-shorthand-notation-cheatsheet-17cd715861b6
+// language=GraphQL Schema
 const schema = buildSchema(`
   # Root type has to be Query or Mutation.
   type Query {
